@@ -2,21 +2,22 @@ package tech.chenlong.concurrency;
 
 /**
  * Created by longchen on 16-8-17
+ * exercise 1
  */
 public class Ex1 implements Runnable {
 
 
     private Ex1(String name) {
-        System.out.println(name + "start");
+        System.out.println(name + " start");
     }
 
     @Override
     public void run() {
         for (int i = 0; i < 3; i++) {
-            System.out.println(Thread.currentThread().getName() + "process");
+            System.out.println(Thread.currentThread().getName() + " process");
             Thread.yield();
         }
-        System.out.println(Thread.currentThread().getName() + "stop");
+        System.out.println(Thread.currentThread().getName() + " stop");
     }
 
     public static void main(String[] args) {
