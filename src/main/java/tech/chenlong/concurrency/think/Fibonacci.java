@@ -1,4 +1,4 @@
-package tech.chenlong.concurrency;
+package tech.chenlong.concurrency.think;
 
 /**
  * Created by chenlong on 2016/8/18

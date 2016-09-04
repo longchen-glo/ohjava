@@ -1,4 +1,4 @@
-package tech.chenlong.concurrency;
+package tech.chenlong.concurrency.think;
 
 /**
  * Created by longchen on 16-8-17
