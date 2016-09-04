@@ -1,4 +1,4 @@
-package tech.chenlong.concurrency;
+package tech.chenlong.concurrency.think;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
