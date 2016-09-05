@@ -11,7 +11,7 @@ public class Ex12_AtomicityFixed implements Runnable {
 
     private int i = 0;
 
-    public int getValue() {
+    public synchronized int getValue() {
         return i;
     }
 
