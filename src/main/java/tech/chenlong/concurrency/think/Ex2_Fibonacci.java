@@ -4,11 +4,11 @@ package tech.chenlong.concurrency.think;
  * Created by chenlong on 2016/8/18
  * exercise 2
  */
-public class Fibonacci implements Runnable {
+public class Ex2_Fibonacci implements Runnable {
 
     private int num;
 
-    public Fibonacci(int num) {
+    public Ex2_Fibonacci(int num) {
         this.num = num;
     }
 
@@ -33,7 +33,7 @@ public class Fibonacci implements Runnable {
 
     public static void main(String[] args) {
         for (int i = 0; i < 100; i++) {
-            new Thread(new Fibonacci(10), "thread" + i).start();
+            new Thread(new Ex2_Fibonacci(10), "thread" + i).start();
         }
     }
 }
