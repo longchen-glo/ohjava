@@ -23,7 +23,7 @@ public class Ex11 {
 
 class MyUncaughtExceptionHandler implements Thread.UncaughtExceptionHandler {
     public void uncaughtException(Thread t, Throwable e) {
-        System.out.println("caught " + e);
+        System.out.println("caught  " + e);
     }
 }
 
