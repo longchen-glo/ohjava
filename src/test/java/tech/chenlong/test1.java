@@ -9,5 +9,6 @@ public class test1 {
         System.out.println(5555555);
 
         System.out.println(7777);
+        System.out.println(88888);
     }
 }
