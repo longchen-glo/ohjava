@@ -7,5 +7,7 @@ public class test1 {
         System.out.println(333);
         System.out.println(44444);
         System.out.println(5555555);
+
+        System.out.println(7777);
     }
 }
